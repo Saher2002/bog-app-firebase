@@ -20,8 +20,8 @@ This repo is designed for you to fork and extend with (1) better CSS and (2) a r
     npm run dev
 
 ## Preview
-![authtication layers](public/assets/firebase_layers_auth.png)
-![db control](public/assets/firebase_layers_db.png)
+![authtication layers](src/assets/firebase_layers_auth.png)
+![db control](src/assets/firebase_layers_db.png)
 
 
 
