@@ -20,10 +20,8 @@ This repo is designed for you to fork and extend with (1) better CSS and (2) a r
     npm run dev
 
 ## Preview
-![authtication layers](src/assets/firebase_layers_auth.png)
-![db control](src/assets/firebase_layers_db.png)
-
-
+![authtication layers](assets/firebase_layers_auth.png)
+![db control](assets/firebase_layers_db.png)
 
 # Reference
 https://github.com/lmucs/blog-starter-app
