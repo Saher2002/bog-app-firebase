@@ -1,17 +1,17 @@
 # A Blog Starter App
 
-This is a trivial blog app, started with Vite.
+This is the blog app using Firebase 
 
-It works entirely within memory, so reloads blow everything away except for the first two mock articles.
+preview 👉 
 
-This repo is designed for you to fork and extend with (1) better CSS and (2) a real back end, with authentication and a database.
+![blod site](https://github.com/user-attachments/assets/1441587f-046c-4c79-873f-0569addcbf09)
 
 ##  Getting Started
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/humeraaa/blog-starter-bscs.git
-   cd blog-starter-bscs
+   git clone https://github.com/Saher2002/bog-app-firebase.git.
+   cd bog-app-firebase
 
 2. Install dependencies:
      npm install
@@ -19,9 +19,3 @@ This repo is designed for you to fork and extend with (1) better CSS and (2) a r
 3. Run the development server
     npm run dev
 
-## Preview
-![authtication layers](assets/firebase_layers_auth.png)
-![db control](assets/firebase_layers_db.png)
-
-# Reference
-https://github.com/lmucs/blog-starter-app
