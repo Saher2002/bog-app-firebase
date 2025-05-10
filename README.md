@@ -13,8 +13,13 @@ preview 👉
    cd bog-app-firebase
 
 2. Install dependencies:
-     npm install
+    npm install
+   
+3.Install Firebase CLI (if not done already):
+    npm install -g firebase-tools
+    firebase login
 
-3. Run the development server
+4. Run the development server
     npm run dev
 
+5. Sign in using your email address
