@@ -1,4 +1,4 @@
-export default function Article({ article }) {
+export default function Article({ article, isUpdate }) {
   return (
     <article>
       {!article ? (
@@ -6,7 +6,7 @@ export default function Article({ article }) {
       ) : (
         <section>
           <h2>{article.title}</h2>
-          <p className="date">{`Posted: ${article.date}`}</p>
+          <p className="date"><strong>Posted at: </strong>{new Date(article.date.toDate()).toLocaleString()}</p>
           <p className="body">{article.body}</p>
         </section>
       )}

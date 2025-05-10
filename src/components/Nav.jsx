@@ -1,13 +1,16 @@
-export default function Nav({ articles, setArticle }) {
+export default function Nav({ articles, setArticle, deleteArticle,beginUpdate }) {
   return (
     <nav>
       {!articles
         ? "No articles"
         : articles.map((a) => (
-            <p key={a.id} onClick={() => setArticle(a)}>
-              {a.title}
-            </p>
-          ))}
+          <div key={a.id}>
+           <p  onClick={() => setArticle(a)}>{a.title}</p>
+           <button onClick={()=>{deleteArticle(a.id)}}>Delete</button>
+           <button onClick={()=>{beginUpdate(a)}}>Update</button>
+          </div>
+          
+         ) )}
     </nav>
   )
 }
