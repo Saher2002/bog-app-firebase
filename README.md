@@ -1,5 +1,4 @@
-# A Blog Starter App
-
+# A Blog App Using Firebase 
 This is the blog app using Firebase 
 
 preview 👉 
