@@ -9,7 +9,7 @@ preview 👉
 
 1. Clone this repository:
    ```sh
-   git clone https://github.com/Saher2002/bog-app-firebase.git.
+   git clone https://github.com/Saher2002/bog-app-firebase.git
    cd bog-app-firebase
 
 2. Install dependencies:
